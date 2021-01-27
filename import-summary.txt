@@ -1,0 +1,115 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+E:\001. Project\006. Monitor\SC-IPM07PRO\Apps\App_packetAnalyzer
+       -            -                                           
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => jnetStreamBuild\src\main\AndroidManifest.xml
+* libs\armeabi\libjnetpcap.so => jnetStreamBuild\src\main\jniLibs\armeabi\libjnetpcap.so
+* libs\armeabi\libjnetpcap.so.old => jnetStreamBuild\src\main\jniLibs\armeabi\libjnetpcap.so.old
+* libs\commons-logging-1.1.1.jar => jnetStreamBuild\libs\commons-logging-1.1.1.jar
+* libs\jnetpcapLogger.jar => jnetStreamBuild\libs\jnetpcapLogger.jar
+* lint.xml => jnetStreamBuild\lint.xml
+* res\ => jnetStreamBuild\src\main\res\
+* src\ => jnetStreamBuild\src\main\java\
+* src\com\slytechs\capture\messages.properties => jnetStreamBuild\src\main\resources\com\slytechs\capture\messages.properties
+* src\com\slytechs\filter\bpf\vm\package.html => jnetStreamBuild\src\main\resources\com\slytechs\filter\bpf\vm\package.html
+* src\com\slytechs\jnetstream\livecapture\package.html => jnetStreamBuild\src\main\resources\com\slytechs\jnetstream\livecapture\package.html
+* src\com\slytechs\utils\db\package.html => jnetStreamBuild\src\main\resources\com\slytechs\utils\db\package.html
+* src\com\slytechs\utils\memory\package.html => jnetStreamBuild\src\main\resources\com\slytechs\utils\memory\package.html
+* src\com\slytechs\utils\net\package.html => jnetStreamBuild\src\main\resources\com\slytechs\utils\net\package.html
+* src\com\slytechs\utils\package.html => jnetStreamBuild\src\main\resources\com\slytechs\utils\package.html
+* src\com\slytechs\utils\region\OldEditableRegionOperationsSpec.html => jnetStreamBuild\src\main\resources\com\slytechs\utils\region\OldEditableRegionOperationsSpec.html
+* src\com\slytechs\utils\region\RegionOperationsSpec.html => jnetStreamBuild\src\main\resources\com\slytechs\utils\region\RegionOperationsSpec.html
+* src\org\jnetpcap\nio\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\nio\package.html
+* src\org\jnetpcap\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\package.html
+* src\org\jnetpcap\packet\annotate\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\packet\annotate\package.html
+* src\org\jnetpcap\packet\format\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\packet\format\package.html
+* src\org\jnetpcap\packet\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\packet\package.html
+* src\org\jnetpcap\packet\structure\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\packet\structure\package.html
+* src\org\jnetpcap\protocol\application\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\protocol\application\package.html
+* src\org\jnetpcap\protocol\lan\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\protocol\lan\package.html
+* src\org\jnetpcap\protocol\network\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\protocol\network\package.html
+* src\org\jnetpcap\protocol\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\protocol\package.html
+* src\org\jnetpcap\protocol\tcpip\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\protocol\tcpip\package.html
+* src\org\jnetpcap\protocol\voip\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\protocol\voip\package.html
+* src\org\jnetpcap\protocol\vpn\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\protocol\vpn\package.html
+* src\org\jnetpcap\protocol\wan\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\protocol\wan\package.html
+* src\org\jnetpcap\util\checksum\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\util\checksum\package.html
+* src\org\jnetpcap\util\config\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\util\config\package.html
+* src\org\jnetpcap\util\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\util\package.html
+* src\org\jnetpcap\util\resolver\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\util\resolver\package.html
+* src\org\jnetpcap\winpcap\package.html => jnetStreamBuild\src\main\resources\org\jnetpcap\winpcap\package.html
+* src\org\jnetstream\analyzer\flow\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\analyzer\flow\package.html
+* src\org\jnetstream\capture\CapturesVsCaptureFactorySyntax.jpage => jnetStreamBuild\src\main\resources\org\jnetstream\capture\CapturesVsCaptureFactorySyntax.jpage
+* src\org\jnetstream\capture\file\nap\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\capture\file\nap\package.html
+* src\org\jnetstream\capture\file\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\capture\file\package.html
+* src\org\jnetstream\capture\file\pcap\messages.properties => jnetStreamBuild\src\main\resources\org\jnetstream\capture\file\pcap\messages.properties
+* src\org\jnetstream\capture\file\pcap\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\capture\file\pcap\package.html
+* src\org\jnetstream\capture\file\snoop\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\capture\file\snoop\package.html
+* src\org\jnetstream\capture\messages.properties => jnetStreamBuild\src\main\resources\org\jnetstream\capture\messages.properties
+* src\org\jnetstream\capture\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\capture\package.html
+* src\org\jnetstream\filter\bpf\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\filter\bpf\package.html
+* src\org\jnetstream\filter\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\filter\package.html
+* src\org\jnetstream\lang\npl\type\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\lang\npl\type\package.html
+* src\org\jnetstream\lang\templates\Binding.sti => jnetStreamBuild\src\main\resources\org\jnetstream\lang\templates\Binding.sti
+* src\org\jnetstream\lang\templates\Codec.sti => jnetStreamBuild\src\main\resources\org\jnetstream\lang\templates\Codec.sti
+* src\org\jnetstream\lang\templates\Expression.sti => jnetStreamBuild\src\main\resources\org\jnetstream\lang\templates\Expression.sti
+* src\org\jnetstream\lang\templates\Filter.sti => jnetStreamBuild\src\main\resources\org\jnetstream\lang\templates\Filter.sti
+* src\org\jnetstream\lang\templates\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\lang\templates\package.html
+* src\org\jnetstream\lang\templates\Stub.sti => jnetStreamBuild\src\main\resources\org\jnetstream\lang\templates\Stub.sti
+* src\org\jnetstream\lang\templates\StubImpl.sti => jnetStreamBuild\src\main\resources\org\jnetstream\lang\templates\StubImpl.sti
+* src\org\jnetstream\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\package.html
+* src\org\jnetstream\packet\format\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\packet\format\package.html
+* src\org\jnetstream\packet\NPL.scratch => jnetStreamBuild\src\main\resources\org\jnetstream\packet\NPL.scratch
+* src\org\jnetstream\packet\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\packet\package.html
+* src\org\jnetstream\packet\templates\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\packet\templates\package.html
+* src\org\jnetstream\protocol\codec\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\protocol\codec\package.html
+* src\org\jnetstream\protocol\package.html => jnetStreamBuild\src\main\resources\org\jnetstream\protocol\package.html
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

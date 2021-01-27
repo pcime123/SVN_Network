@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_action_search.png",
+        "source": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\src\\main\\res\\drawable-xhdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\JinseopKim\\.gradle\\caches\\transforms-2\\files-2.1\\a0ae8e6b294496121df48d55d2455b55\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\JinseopKim\\.gradle\\caches\\transforms-2\\files-2.1\\a0ae8e6b294496121df48d55d2455b55\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\JinseopKim\\.gradle\\caches\\transforms-2\\files-2.1\\a0ae8e6b294496121df48d55d2455b55\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\JinseopKim\\.gradle\\caches\\transforms-2\\files-2.1\\a0ae8e6b294496121df48d55d2455b55\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\JinseopKim\\.gradle\\caches\\transforms-2\\files-2.1\\a0ae8e6b294496121df48d55d2455b55\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    }
+]

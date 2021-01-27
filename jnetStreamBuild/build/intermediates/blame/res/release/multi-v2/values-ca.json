@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\build\\intermediates\\res\\merged\\release\\values-ca\\values-ca.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JinseopKim\\.gradle\\caches\\transforms-2\\files-2.1\\a0ae8e6b294496121df48d55d2455b55\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\001. Project\\006. Monitor\\SC-IPM07PRO\\Apps\\App_packetAnalyzer\\jnetStreamBuild\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ca\\values-ca.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JinseopKim\\.gradle\\caches\\transforms-2\\files-2.1\\a0ae8e6b294496121df48d55d2455b55\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
